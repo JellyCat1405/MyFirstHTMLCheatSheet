@@ -1,0 +1,95 @@
+
+h1 {
+  color: Black;
+  font-size: 60px;
+  font-family: Verdana;
+  text-align: center;
+  padding: 0.2px;
+}
+
+.realistic-marker-highlight {
+  position:relative;
+}
+.realistic-marker-highlight:before {
+  content:"";
+  background-color:#4682b4;
+  width:100%;
+  height:1em;
+  position:absolute;
+  z-index:-1;
+  filter:url(#marker-shape);
+  left:-0.25em;
+  top:0.1em;
+  padding:0 0.25em;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+  color: WhiteSmoke;
+  font-size: 20px;
+  font-family: Verdana;
+  text-align: center;
+  padding: 0.2px;
+}
+
+p {
+  color: WhiteSmoke;
+  font-size: 30px;
+  font-family: Verdana;
+  text-align: center;
+  padding: 20px;
+}
+
+p.footer {
+  color: White;
+  font-size: 15px;
+  font-family: Verdana;
+}
+
+th {
+  background-color: SteelBlue;
+  opacity: 0.9;
+  font-size: 20px;
+  font-family: Verdana;
+  color: Black;
+  padding: 15px;
+}
+ 
+td {
+  background-color: SteelBlue;
+  opacity: 0.9;
+  font-size: 20px;
+  font-family: Verdana;
+  color: WhiteSmoke;
+  padding: 15px;
+}
+
+tr:hover {
+  background-color: white;
+  }
+
+
+div.VideoText {
+  font-size: 20px;
+  font-family: Verdana;
+  color: WhiteSmoke;
+  text-align: center;
+  }
+
+  
+.Youtube {
+  display: block;
+  margin: auto;
+}
+
+Footer {
+  text-align: center;
+  color: Tan;
+  font-family: Verdana;
+  font-size: 0.1px;
+  padding: 0.1px;
+}
