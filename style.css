@@ -45,7 +45,7 @@ p {
 }
 
 p.footer {
-  color: White;
+  color: WhiteSmoke;
   font-size: 15px;
   font-family: Verdana;
 }
@@ -86,10 +86,3 @@ div.VideoText {
   margin: auto;
 }
 
-Footer {
-  text-align: center;
-  color: Tan;
-  font-family: Verdana;
-  font-size: 0.1px;
-  padding: 0.1px;
-}
